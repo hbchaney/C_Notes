@@ -22,6 +22,6 @@ int main()
     z = 'e';
 
     printf("%c%c%c house\n", x,y,z);
-
+   
 
 }
