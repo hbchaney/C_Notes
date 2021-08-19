@@ -2,6 +2,7 @@
 
 
 // must have type declared and prefferably will start with lower case letters  
+// do not forget the; at the end as well 
 
 
 
