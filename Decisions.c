@@ -33,6 +33,31 @@ int main()
 
     //testing it with strings -- cannot do it for strings 
 
+    //short example code 
+
+    int num; 
+    printf("please input a number between 1 and 3\nit can include 1 and 3:  ");
+    scanf("%d",&num); //stahp forgetting the & 
+    printf("\n");
+
+    switch(num)
+    {
+        case 1:
+            printf("you chose 1 \n");
+            break;
+            
+        case 2: 
+            printf("you chose 2 \n");
+            break; 
+        case 3: 
+            printf("you chose 3 \n");
+            break; 
+
+        default: 
+            printf("you chose poorly \n");
+            break;
+    }
+
   
 
 
