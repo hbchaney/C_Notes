@@ -11,8 +11,10 @@ constant expression are written in all caps and need no semicolon
 
 int main() 
 {
-    const int Harrison = 'H' + 'C';
+    const int Harrison = 'H' + 'C'; //this will make Harrison a read only variable 
 
     printf("my numbers are: %d\n",Harrison);
     printf("what is this cosntant %d\n", THISCONSTANT);
 }
+
+
